@@ -1,0 +1,25 @@
+{
+  "model_name": "vit_scratch",
+  "model_type": "Vision Transformer from scratch",
+  "model_size": "tiny",
+  "total_parameters": 1963393,
+  "final_train_loss": 0.5365736882069281,
+  "final_val_loss": 0.4140523391465346,
+  "final_val_accuracy": 80.0,
+  "best_val_accuracy": 83.33333333333333,
+  "train_val_gap": 33.65736882069281,
+  "is_overfitting": true,
+  "epochs_trained": 20,
+  "early_stopped": true,
+  "train_samples": 70,
+  "val_samples": 30,
+  "using_real_data": true,
+  "improvements_applied": [
+    "Tiny ViT architecture for small dataset",
+    "AdamW optimizer with cosine annealing",
+    "Gradient clipping",
+    "Light data augmentation",
+    "Early stopping",
+    "Proper weight decay for transformers"
+  ]
+}

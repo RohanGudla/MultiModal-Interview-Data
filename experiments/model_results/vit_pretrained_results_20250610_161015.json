@@ -1,0 +1,32 @@
+{
+  "model_name": "vit_pretrained",
+  "model_type": "Pretrained ViT-B/16 with fine-tuning",
+  "backbone_source": "torchvision (ImageNet pretrained)",
+  "total_parameters": 86325505,
+  "trainable_parameters": 28879873,
+  "frozen_parameters": 57445632,
+  "final_train_loss": 0.5451120932896932,
+  "final_val_loss": 0.6560653131455183,
+  "final_val_accuracy": 76.66666666666667,
+  "best_val_accuracy": 83.33333333333333,
+  "train_val_gap": 31.177875995635993,
+  "is_overfitting": true,
+  "epochs_trained": 30,
+  "phase1_epochs": 20,
+  "phase2_epochs": 10,
+  "train_samples": 70,
+  "val_samples": 30,
+  "using_real_data": true,
+  "training_strategy": "Two-phase: classifier first, then fine-tuning",
+  "improvements_applied": [
+    "Pretrained ImageNet ViT-B/16 weights",
+    "Two-phase training strategy",
+    "Different learning rates for backbone vs classifier",
+    "Gradual unfreezing of transformer blocks",
+    "Light data augmentation (ViT-friendly)",
+    "AdamW optimizer with weight decay",
+    "Cosine annealing learning rate schedule",
+    "Gradient clipping",
+    "Early stopping per phase"
+  ]
+}

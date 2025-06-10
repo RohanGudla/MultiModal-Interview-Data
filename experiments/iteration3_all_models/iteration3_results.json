@@ -1,0 +1,218 @@
+{
+  "iteration": 3,
+  "timestamp": "2025-06-10T13:32:16.444603",
+  "data_info": {
+    "participants": [
+      "CP 0636",
+      "NS 4013",
+      "JM 9684",
+      "MP 5114"
+    ],
+    "train_samples": 20,
+    "val_samples": 10,
+    "test_samples": 10
+  },
+  "model_results": {
+    "SimpleCNN": {
+      "model_info": {
+        "architecture": "SimpleCNN",
+        "parameters": {
+          "total": 51539777,
+          "trainable": 51539777
+        },
+        "device": "cuda"
+      },
+      "training_results": {
+        "train_losses": [
+          1.2454623182614644,
+          0.6843942801157633,
+          1.0173866351445515,
+          0.6716979146003723,
+          0.5998335480690002
+        ],
+        "val_losses": [
+          0.6994129121303558,
+          0.8358716666698456,
+          1.0187192559242249,
+          0.7899579703807831,
+          0.8983210325241089
+        ],
+        "train_accuracies": [
+          0.5,
+          0.6,
+          0.65,
+          0.55,
+          0.65
+        ],
+        "val_accuracies": [
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "best_val_accuracy": 0.4,
+        "training_time": 0.6961207389831543
+      },
+      "test_results": {
+        "accuracy": 0.3,
+        "precision": 0.3,
+        "recall": 1.0,
+        "f1_score": 0.46153846153846156,
+        "total_samples": 10
+      },
+      "success": true
+    },
+    "SimpleViT": {
+      "model_info": {
+        "architecture": "SimpleViT",
+        "parameters": {
+          "total": 2356737,
+          "trainable": 2356737
+        },
+        "device": "cuda"
+      },
+      "training_results": {
+        "train_losses": [
+          0.979758620262146,
+          0.6605174342791239,
+          0.8194785515467325,
+          0.3968244294325511,
+          0.1361368124683698
+        ],
+        "val_losses": [
+          0.7328744232654572,
+          1.0458040237426758,
+          1.014313966035843,
+          0.72651806473732,
+          2.5281563997268677
+        ],
+        "train_accuracies": [
+          0.65,
+          0.55,
+          0.65,
+          0.85,
+          1.0
+        ],
+        "val_accuracies": [
+          0.4,
+          0.4,
+          0.4,
+          0.3,
+          0.4
+        ],
+        "best_val_accuracy": 0.4,
+        "training_time": 0.22350001335144043
+      },
+      "test_results": {
+        "accuracy": 0.3,
+        "precision": 0.3,
+        "recall": 1.0,
+        "f1_score": 0.46153846153846156,
+        "total_samples": 10
+      },
+      "success": true
+    },
+    "PretrainedResNet50": {
+      "model_info": {
+        "architecture": "PretrainedResNet50",
+        "parameters": {
+          "total": 23510081,
+          "trainable": 23510081
+        },
+        "device": "cuda"
+      },
+      "training_results": {
+        "train_losses": [
+          0.7016768256823221,
+          0.09363498538732529,
+          1.259987751642863,
+          0.37204310297966003,
+          0.4406186491250992
+        ],
+        "val_losses": [
+          7.484029769897461,
+          1.877976894378662,
+          8.334872722625732,
+          30.796903610229492,
+          15.942669868469238
+        ],
+        "train_accuracies": [
+          0.65,
+          0.95,
+          0.75,
+          0.9,
+          0.9
+        ],
+        "val_accuracies": [
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "best_val_accuracy": 0.4,
+        "training_time": 0.5321614742279053
+      },
+      "test_results": {
+        "accuracy": 0.3,
+        "precision": 0.3,
+        "recall": 1.0,
+        "f1_score": 0.46153846153846156,
+        "total_samples": 10
+      },
+      "success": true
+    },
+    "PretrainedViT": {
+      "model_info": {
+        "architecture": "PretrainedViT",
+        "parameters": {
+          "total": 11177025,
+          "trainable": 11177025
+        },
+        "device": "cuda"
+      },
+      "training_results": {
+        "train_losses": [
+          0.6980375250180563,
+          1.1250516225894291,
+          0.3901951511700948,
+          0.9473553498586019,
+          0.45068384800106287
+        ],
+        "val_losses": [
+          3.7062716484069824,
+          3.0173782110214233,
+          1.555097222328186,
+          4.404633283615112,
+          13.651020050048828
+        ],
+        "train_accuracies": [
+          0.65,
+          0.75,
+          0.85,
+          0.8,
+          0.9
+        ],
+        "val_accuracies": [
+          0.4,
+          0.4,
+          0.6,
+          0.4,
+          0.4
+        ],
+        "best_val_accuracy": 0.6,
+        "training_time": 0.2181072235107422
+      },
+      "test_results": {
+        "accuracy": 0.3,
+        "precision": 0.3,
+        "recall": 1.0,
+        "f1_score": 0.46153846153846156,
+        "total_samples": 10
+      },
+      "success": true
+    }
+  },
+  "success": true
+}

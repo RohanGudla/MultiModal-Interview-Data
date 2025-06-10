@@ -1,0 +1,23 @@
+{
+  "model_name": "improved_cnn",
+  "final_train_loss": 1.674552611178822,
+  "final_val_loss": 0.585777685046196,
+  "final_val_accuracy": 60.0,
+  "best_val_accuracy": 70.0,
+  "train_val_gap": 127.4552611178822,
+  "is_overfitting": true,
+  "epochs_trained": 11,
+  "early_stopped": true,
+  "train_samples": 70,
+  "val_samples": 30,
+  "using_real_data": true,
+  "improvements_applied": [
+    "Data augmentation",
+    "Increased dropout (0.7)",
+    "Weight decay (L2 regularization)",
+    "Early stopping",
+    "Gradient clipping",
+    "Batch normalization",
+    "Stratified validation split"
+  ]
+}

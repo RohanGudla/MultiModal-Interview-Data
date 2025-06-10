@@ -1,0 +1,36 @@
+{
+  "video_path": "DERIVED_FROM:/home/rohan/Multimodal/GENEX Intreview/Analysis/Gaze Replays/Screen recording 1 - LE 3299.mp4",
+  "frames": [
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0000.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0001.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0002.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0003.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0004.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0005.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0006.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0007.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0008.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0009.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0010.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0011.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0012.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0013.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0014.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0015.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0016.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0017.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0018.jpg",
+    "/home/rohan/Multimodal/multimodal_video_ml/data/real_frames/NS 4013/frame_0019.jpg"
+  ],
+  "num_frames": 20,
+  "method": "real_variant",
+  "source_participant": "LE 3299",
+  "transformation": "contrast_up",
+  "extraction_details": {
+    "base_on_real_data": true,
+    "source_video": "LE 3299",
+    "transformation_applied": "contrast_up",
+    "target_size": "224x224",
+    "format": "jpg"
+  }
+}

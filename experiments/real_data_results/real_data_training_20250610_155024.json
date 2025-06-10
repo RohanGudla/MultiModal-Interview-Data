@@ -1,0 +1,43 @@
+{
+  "model_name": "cnn_simple",
+  "final_train_loss": 0.44702523946762085,
+  "final_val_loss": 0.670638382434845,
+  "final_val_accuracy": 100.0,
+  "best_val_accuracy": 100.0,
+  "num_epochs": 20,
+  "train_samples": 60,
+  "val_samples": 20,
+  "participant_info": {
+    "CP 0636": {
+      "frames": 20,
+      "label": 1.0,
+      "start_idx": 0,
+      "end_idx": 20
+    },
+    "LE 3299": {
+      "frames": 20,
+      "label": 0.0,
+      "start_idx": 20,
+      "end_idx": 40
+    },
+    "NS 4013": {
+      "frames": 20,
+      "label": 1.0,
+      "start_idx": 40,
+      "end_idx": 60
+    },
+    "JM 9684": {
+      "frames": 20,
+      "label": 0.0,
+      "start_idx": 60,
+      "end_idx": 80
+    },
+    "MP 5114": {
+      "frames": 20,
+      "label": 1.0,
+      "start_idx": 80,
+      "end_idx": 100
+    }
+  },
+  "using_real_data": true
+}

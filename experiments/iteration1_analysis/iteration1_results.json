@@ -1,0 +1,123 @@
+{
+  "videos": {
+    "CP 0636": {
+      "participant_id": "CP 0636",
+      "file_path": "/home/rohan/Multimodal/GENEX Intreview/Analysis/Gaze Replays/Screen recording 1 - CP 0636.mp4",
+      "file_size_mb": 2.132298469543457,
+      "file_exists": true,
+      "file_extension": ".mp4"
+    },
+    "LE 3299": {
+      "participant_id": "LE 3299",
+      "file_path": "/home/rohan/Multimodal/GENEX Intreview/Analysis/Gaze Replays/Screen recording 1 - LE 3299.mp4",
+      "file_size_mb": 638.4921941757202,
+      "file_exists": true,
+      "file_extension": ".mp4"
+    },
+    "NS 4013": {
+      "participant_id": "NS 4013",
+      "file_path": "/home/rohan/Multimodal/GENEX Intreview/Analysis/Gaze Replays/Screen recording 1 - NS 4013.mp4",
+      "file_size_mb": 0.0,
+      "file_exists": true,
+      "file_extension": ".mp4"
+    },
+    "JM 9684": {
+      "participant_id": "JM 9684",
+      "file_path": "/home/rohan/Multimodal/GENEX Intreview/Analysis/Gaze Replays/Screen recording 1 - JM 9684.mp4",
+      "file_size_mb": 0.9354457855224609,
+      "file_exists": true,
+      "file_extension": ".mp4"
+    },
+    "MP 5114": {
+      "participant_id": "MP 5114",
+      "file_path": "/home/rohan/Multimodal/GENEX Intreview/Analysis/Gaze Replays/Screen recording 1 - MP 5114.mp4",
+      "file_size_mb": 5.599879264831543,
+      "file_exists": true,
+      "file_extension": ".mp4"
+    }
+  },
+  "annotations": {
+    "CP 0636": {
+      "participant_id": "CP 0636",
+      "raw_data_available": true,
+      "emotion_columns_count": 26,
+      "sample_values": {
+        "Anger Threshold": 50.0,
+        "Anger Frames >= Threshold": 125.0,
+        "Anger Time Percentage": 0.84,
+        "Contempt Threshold": 50.0,
+        "Contempt Frames >= Threshold": 67.0
+      }
+    },
+    "NS 4013": {
+      "participant_id": "NS 4013",
+      "raw_data_available": true,
+      "emotion_columns_count": 26,
+      "sample_values": {
+        "Anger Threshold": 50.0,
+        "Anger Frames >= Threshold": 157.0,
+        "Anger Time Percentage": 0.53,
+        "Contempt Threshold": 50.0,
+        "Contempt Frames >= Threshold": 520.0
+      }
+    },
+    "JM 9684": {
+      "participant_id": "JM 9684",
+      "raw_data_available": true,
+      "emotion_columns_count": 26,
+      "sample_values": {
+        "Anger Threshold": 50.0,
+        "Anger Frames >= Threshold": 62.0,
+        "Anger Time Percentage": 0.23,
+        "Contempt Threshold": 50.0,
+        "Contempt Frames >= Threshold": 276.0
+      }
+    },
+    "MP 5114": {
+      "participant_id": "MP 5114",
+      "raw_data_available": true,
+      "emotion_columns_count": 26,
+      "sample_values": {
+        "Anger Threshold": 50.0,
+        "Anger Frames >= Threshold": 513.0,
+        "Anger Time Percentage": 2.49,
+        "Contempt Threshold": 50.0,
+        "Contempt Frames >= Threshold": 228.0
+      }
+    }
+  },
+  "data_quality": {
+    "video_quality": {
+      "total_videos": 5,
+      "all_files_exist": true,
+      "avg_file_size_mb": 129.43196353912353,
+      "total_size_mb": 647.1598176956177
+    },
+    "annotation_quality": {
+      "total_participants": 4,
+      "all_have_data": true,
+      "avg_emotion_columns": 26.0
+    },
+    "alignment_check": {
+      "both_data": [
+        "JM 9684",
+        "CP 0636",
+        "NS 4013",
+        "MP 5114"
+      ],
+      "video_only": [
+        "LE 3299"
+      ],
+      "annotation_only": [],
+      "alignment_rate": 0.8
+    },
+    "recommendations": [
+      "Some participants missing either video or annotation data",
+      "Address 1 errors before proceeding"
+    ]
+  },
+  "errors": [
+    "No annotation data for participant: LE 3299"
+  ],
+  "statistics": {}
+}

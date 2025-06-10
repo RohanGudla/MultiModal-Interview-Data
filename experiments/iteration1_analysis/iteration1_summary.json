@@ -1,0 +1,15 @@
+{
+  "iteration": 1,
+  "timestamp": "2025-06-10T13:24:53.387505",
+  "summary": {
+    "total_videos": 5,
+    "total_annotations": 4,
+    "aligned_participants": 4,
+    "total_errors": 1,
+    "data_quality_score": 0.825
+  },
+  "next_steps": [
+    "\u2705 Sufficient data for training - proceed to Iteration 2 (CNN baseline)",
+    "\ud83d\udd27 Fix 1 errors before proceeding"
+  ]
+}

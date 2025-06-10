@@ -1,0 +1,63 @@
+{
+  "iteration": 2,
+  "timestamp": "2025-06-10T13:28:31.106561",
+  "model_info": {
+    "architecture": "SimpleCNN",
+    "parameters": {
+      "total": 51539777,
+      "trainable": 51539777
+    },
+    "device": "cuda"
+  },
+  "data_info": {
+    "participants": [
+      "CP 0636",
+      "NS 4013",
+      "JM 9684",
+      "MP 5114"
+    ],
+    "train_samples": 20,
+    "val_samples": 10,
+    "test_samples": 10
+  },
+  "training_results": {
+    "train_losses": [
+      0.7916694283485413,
+      0.6387593746185303,
+      0.8096620241800944,
+      0.7452048460642496,
+      0.6894497474034628
+    ],
+    "val_losses": [
+      1.0952682793140411,
+      1.0015724301338196,
+      0.7793768644332886,
+      0.7607764303684235,
+      0.7051838338375092
+    ],
+    "train_accuracies": [
+      0.6,
+      0.7,
+      0.4,
+      0.6,
+      0.5
+    ],
+    "val_accuracies": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "best_val_accuracy": 0.3,
+    "training_time": 1.1498534679412842
+  },
+  "test_results": {
+    "accuracy": 0.3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "total_samples": 10
+  },
+  "success": true
+}

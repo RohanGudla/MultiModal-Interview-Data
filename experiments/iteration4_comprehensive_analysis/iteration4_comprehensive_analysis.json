@@ -1,0 +1,229 @@
+{
+  "iteration": 4,
+  "timestamp": "2025-06-10T13:34:36.263107",
+  "analysis_summary": {
+    "total_models_analyzed": 4,
+    "best_model": "SimpleCNN",
+    "best_accuracy": 0.3,
+    "avg_accuracy": 0.3,
+    "total_training_time": 1.6698894500732422
+  },
+  "key_insights": [
+    "\ud83c\udfc6 Best performer: SimpleCNN (30.0% test accuracy)",
+    "\u26a1 Most efficient: SimpleViT (2.4M parameters)",
+    "\ud83d\ude80 Fastest training: PretrainedViT (0.2s)",
+    "\ud83d\udd0d CNNs outperform Vision Transformers (30.0% vs 30.0%)",
+    "\ud83d\udcca Model performances are quite consistent across architectures",
+    "\u26a0\ufe0f  SimpleViT shows signs of overfitting (train-val gap: 36.0%)",
+    "\u26a0\ufe0f  PretrainedResNet50 shows signs of overfitting (train-val gap: 43.0%)",
+    "\u26a0\ufe0f  PretrainedViT shows signs of overfitting (train-val gap: 35.0%)"
+  ],
+  "detailed_analysis": {
+    "convergence_analysis": {
+      "SimpleCNN": {
+        "train_improvement": 0.15000000000000002,
+        "val_improvement": 0.0,
+        "final_gap": 0.25,
+        "loss_reduction": 0.6456287701924641
+      },
+      "SimpleViT": {
+        "train_improvement": 0.35,
+        "val_improvement": 0.0,
+        "final_gap": 0.6,
+        "loss_reduction": 0.8436218077937762
+      },
+      "PretrainedResNet50": {
+        "train_improvement": 0.25,
+        "val_improvement": 0.0,
+        "final_gap": 0.5,
+        "loss_reduction": 0.26105817655722297
+      },
+      "PretrainedViT": {
+        "train_improvement": 0.25,
+        "val_improvement": 0.0,
+        "final_gap": 0.5,
+        "loss_reduction": 0.2473536770169934
+      }
+    },
+    "overfitting_analysis": {
+      "SimpleCNN": {
+        "avg_train_val_gap": 0.19,
+        "final_train_val_gap": 0.25,
+        "overfitting_score": 0.19
+      },
+      "SimpleViT": {
+        "avg_train_val_gap": 0.36000000000000004,
+        "final_train_val_gap": 0.6,
+        "overfitting_score": 0.36000000000000004
+      },
+      "PretrainedResNet50": {
+        "avg_train_val_gap": 0.43,
+        "final_train_val_gap": 0.5,
+        "overfitting_score": 0.43
+      },
+      "PretrainedViT": {
+        "avg_train_val_gap": 0.35,
+        "final_train_val_gap": 0.5,
+        "overfitting_score": 0.35
+      }
+    },
+    "efficiency_analysis": {
+      "SimpleCNN": {
+        "params_millions": 51.539777,
+        "training_time": 0.6961207389831543,
+        "accuracy_per_param": 0.005820746954337812,
+        "accuracy_per_second": 0.430959721783637
+      },
+      "SimpleViT": {
+        "params_millions": 2.356737,
+        "training_time": 0.22350001335144043,
+        "accuracy_per_param": 0.12729464509616475,
+        "accuracy_per_second": 1.3422817990094162
+      },
+      "PretrainedResNet50": {
+        "params_millions": 23.510081,
+        "training_time": 0.5321614742279053,
+        "accuracy_per_param": 0.012760483470899142,
+        "accuracy_per_second": 0.5637386667933068
+      },
+      "PretrainedViT": {
+        "params_millions": 11.177025,
+        "training_time": 0.2181072235107422,
+        "accuracy_per_param": 0.026840773819509216,
+        "accuracy_per_second": 1.3754702626124826
+      }
+    }
+  },
+  "model_rankings": [
+    {
+      "Model": "PretrainedViT",
+      "Parameters": 11177025,
+      "Trainable_Params": 11177025,
+      "Training_Time": 0.2181072235107422,
+      "Best_Val_Acc": 0.6,
+      "Test_Accuracy": 0.3,
+      "Test_Precision": 0.3,
+      "Test_Recall": 1.0,
+      "Test_F1": 0.46153846153846156,
+      "Final_Train_Acc": 0.9,
+      "Final_Val_Acc": 0.4,
+      "Performance_Score": 0.45384615384615384,
+      "Efficiency_Score": 0.9542280308429082,
+      "Stability_Score": 0.65,
+      "Training_Eff_Score": 1.0,
+      "Final_Score": 0.697806870791334,
+      "Rank": 1.0
+    },
+    {
+      "Model": "SimpleViT",
+      "Parameters": 2356737,
+      "Trainable_Params": 2356737,
+      "Training_Time": 0.22350001335144043,
+      "Best_Val_Acc": 0.4,
+      "Test_Accuracy": 0.3,
+      "Test_Precision": 0.3,
+      "Test_Recall": 1.0,
+      "Test_F1": 0.46153846153846156,
+      "Final_Train_Acc": 1.0,
+      "Final_Val_Acc": 0.4,
+      "Performance_Score": 0.38717948717948714,
+      "Efficiency_Score": 1.0,
+      "Stability_Score": 0.6399999999999999,
+      "Training_Eff_Score": 0.9833298620768844,
+      "Final_Score": 0.6812047810794833,
+      "Rank": 2.0
+    },
+    {
+      "Model": "SimpleCNN",
+      "Parameters": 51539777,
+      "Trainable_Params": 51539777,
+      "Training_Time": 0.6961207389831543,
+      "Best_Val_Acc": 0.4,
+      "Test_Accuracy": 0.3,
+      "Test_Precision": 0.3,
+      "Test_Recall": 1.0,
+      "Test_F1": 0.46153846153846156,
+      "Final_Train_Acc": 0.65,
+      "Final_Val_Acc": 0.4,
+      "Performance_Score": 0.38717948717948714,
+      "Efficiency_Score": 0.29721520815734753,
+      "Stability_Score": 0.81,
+      "Training_Eff_Score": 0.3995715824675599,
+      "Final_Score": 0.44599351556575517,
+      "Rank": 3.0
+    },
+    {
+      "Model": "PretrainedResNet50",
+      "Parameters": 23510081,
+      "Trainable_Params": 23510081,
+      "Training_Time": 0.5321614742279053,
+      "Best_Val_Acc": 0.4,
+      "Test_Accuracy": 0.3,
+      "Test_Precision": 0.3,
+      "Test_Recall": 1.0,
+      "Test_F1": 0.46153846153846156,
+      "Final_Train_Acc": 0.9,
+      "Final_Val_Acc": 0.4,
+      "Performance_Score": 0.38717948717948714,
+      "Efficiency_Score": 0.3922893242992044,
+      "Stability_Score": 0.5700000000000001,
+      "Training_Eff_Score": 0.5032056467839401,
+      "Final_Score": 0.4368791568399502,
+      "Rank": 4.0
+    }
+  ],
+  "raw_comparison": [
+    {
+      "Model": "SimpleCNN",
+      "Parameters": 51539777,
+      "Trainable_Params": 51539777,
+      "Training_Time": 0.6961207389831543,
+      "Best_Val_Acc": 0.4,
+      "Test_Accuracy": 0.3,
+      "Test_Precision": 0.3,
+      "Test_Recall": 1.0,
+      "Test_F1": 0.46153846153846156,
+      "Final_Train_Acc": 0.65,
+      "Final_Val_Acc": 0.4
+    },
+    {
+      "Model": "SimpleViT",
+      "Parameters": 2356737,
+      "Trainable_Params": 2356737,
+      "Training_Time": 0.22350001335144043,
+      "Best_Val_Acc": 0.4,
+      "Test_Accuracy": 0.3,
+      "Test_Precision": 0.3,
+      "Test_Recall": 1.0,
+      "Test_F1": 0.46153846153846156,
+      "Final_Train_Acc": 1.0,
+      "Final_Val_Acc": 0.4
+    },
+    {
+      "Model": "PretrainedResNet50",
+      "Parameters": 23510081,
+      "Trainable_Params": 23510081,
+      "Training_Time": 0.5321614742279053,
+      "Best_Val_Acc": 0.4,
+      "Test_Accuracy": 0.3,
+      "Test_Precision": 0.3,
+      "Test_Recall": 1.0,
+      "Test_F1": 0.46153846153846156,
+      "Final_Train_Acc": 0.9,
+      "Final_Val_Acc": 0.4
+    },
+    {
+      "Model": "PretrainedViT",
+      "Parameters": 11177025,
+      "Trainable_Params": 11177025,
+      "Training_Time": 0.2181072235107422,
+      "Best_Val_Acc": 0.6,
+      "Test_Accuracy": 0.3,
+      "Test_Precision": 0.3,
+      "Test_Recall": 1.0,
+      "Test_F1": 0.46153846153846156,
+      "Final_Train_Acc": 0.9,
+      "Final_Val_Acc": 0.4
+    }
+  ]
+}
