@@ -1,0 +1,75 @@
+{
+  "processing_timestamp": "2025-06-10T18:44:50.433126",
+  "participants": [
+    "LE 3299",
+    "CP 0636",
+    "NS 4013",
+    "MP 5114",
+    "JM 9684"
+  ],
+  "physical_features": [
+    "Head Leaning Forward",
+    "Head Leaning Backward",
+    "Head Not Tilted",
+    "Head Pointing Forward",
+    "Head Pointing Up",
+    "Head Down",
+    "Head Tilted Left",
+    "Head Tilted Right",
+    "Head Turned Forward",
+    "Head Turned Left",
+    "Head Turned Right",
+    "Eye Closure",
+    "Eye Widen",
+    "Brow Furrow",
+    "Brow Raise",
+    "Mouth Open",
+    "Jaw Drop",
+    "Speaking",
+    "Lip Press",
+    "Lip Pucker",
+    "Lip Stretch",
+    "Lip Suck",
+    "Lip Tighten",
+    "Cheek Raise",
+    "Chin Raise",
+    "Dimpler",
+    "Nose Wrinkle",
+    "Upper Lip Raise"
+  ],
+  "emotional_targets": [
+    "Joy",
+    "Anger",
+    "Fear",
+    "Disgust",
+    "Sadness",
+    "Surprise",
+    "Contempt",
+    "Positive Valence",
+    "Negative Valence",
+    "Neutral Valence",
+    "Attention",
+    "Adaptive Engagement",
+    "Confusion",
+    "Sentimentality",
+    "Smile",
+    "Smirk",
+    "Neutral"
+  ],
+  "physical_feature_count": 28,
+  "emotional_target_count": 17,
+  "participants_processed": {
+    "physical": [
+      "CP 0636",
+      "NS 4013",
+      "MP 5114",
+      "JM 9684"
+    ],
+    "emotional": [
+      "CP 0636",
+      "NS 4013",
+      "MP 5114",
+      "JM 9684"
+    ]
+  }
+}

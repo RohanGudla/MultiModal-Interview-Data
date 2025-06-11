@@ -1,0 +1,63 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-06-10T20:39:23.079807",
+    "models_analyzed": 5,
+    "video_only_models": 3,
+    "multimodal_models": 2
+  },
+  "performance_comparison": {
+    "model_metrics": [
+      {
+        "Model": "A.2_ViT_Scratch",
+        "Type": "Video-Only",
+        "Architecture": "ViT (from scratch)",
+        "Accuracy (%)": 80.0,
+        "F1 Score": 0.0,
+        "Parameters": 1963393,
+        "Data Type": "Real Video Frames",
+        "Modalities": "Video Only"
+      },
+      {
+        "Model": "A.3_ResNet50",
+        "Type": "Video-Only",
+        "Architecture": "ResNet50 / Advanced ViT",
+        "Accuracy (%)": 76.66666666666667,
+        "F1 Score": 0.0,
+        "Parameters": 24688705,
+        "Data Type": "Real Video Frames",
+        "Modalities": "Video Only"
+      },
+      {
+        "Model": "A.4_ViT_Pretrained",
+        "Type": "Video-Only",
+        "Architecture": "Pretrained ViT-B/16",
+        "Accuracy (%)": 100.0,
+        "F1 Score": 0.0,
+        "Parameters": 86325505,
+        "Data Type": "Real Video Frames",
+        "Modalities": "Video Only"
+      },
+      {
+        "Model": "B.1_Naive_Fusion",
+        "Type": "Multimodal",
+        "Architecture": "ViT (from scratch)",
+        "Accuracy (%)": 91.47058725357056,
+        "F1 Score": 0.15317299962043762,
+        "Parameters": 2130065,
+        "Data Type": "Video + Annotations",
+        "Modalities": "Video + Physical + Physiological"
+      },
+      {
+        "Model": "B.2_Advanced_Fusion",
+        "Type": "Multimodal",
+        "Architecture": "ResNet50 / Advanced ViT",
+        "Accuracy (%)": 91.76470637321472,
+        "F1 Score": 0.15462185442447662,
+        "Parameters": 8222737,
+        "Data Type": "Video + Annotations",
+        "Modalities": "Video + Physical + Physiological"
+      }
+    ],
+    "architecture_comparison": {
+      "Accuracy (%)": {
+        
