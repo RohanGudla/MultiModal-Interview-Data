@@ -21,6 +21,7 @@ A comprehensive deep learning framework for emotion recognition from video data,
 - **Advanced Emotional States**: Valence, engagement, attention, complex states (sentimentality, smirk)
 - **Attention/Engagement** metrics for behavioral analysis
 - **Temporal Alignment** between video frames and emotion labels
+- **See the [FAQ](FAQ.md) for details on frame sampling, data splits, and saving predictions**
 
 ## 🏗️ Architecture
 
