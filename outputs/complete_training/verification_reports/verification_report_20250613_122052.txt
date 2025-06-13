@@ -1,0 +1,38 @@
+MULTIMODAL VIDEO ANNOTATION - VERIFICATION REPORT
+============================================================
+Generated: 20250613_122052
+
+DATASET SUMMARY
+------------------------------
+Total samples: 4,026
+Unique participants: 9
+Total features: 50
+
+PARTICIPANTS
+------------------------------
+AM_1355: 704 samples, 0.987 accuracy
+CP_0636: 540 samples, 0.984 accuracy
+AW_8961: 316 samples, 0.972 accuracy
+BU_6095: 468 samples, 0.981 accuracy
+AR__2298: 545 samples, 0.984 accuracy
+AR_1378: 510 samples, 0.982 accuracy
+CP_6047: 388 samples, 0.978 accuracy
+CR_0863: 276 samples, 0.967 accuracy
+EV_4492: 279 samples, 0.967 accuracy
+
+OVERALL PERFORMANCE
+------------------------------
+Overall accuracy: 0.9801
+
+TOP PERFORMING FEATURES
+------------------------------
+fixation_density: 1.000
+avg_fixation_duration: 1.000
+gaze_dispersion: 1.000
+gsr_avg_amplitude: 1.000
+Joy: 1.000
+Anger: 1.000
+Fear: 1.000
+Disgust: 1.000
+Sadness: 1.000
+Surprise: 1.000

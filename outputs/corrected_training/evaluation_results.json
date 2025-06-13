@@ -1,0 +1,317 @@
+{
+  "overall_metrics": {
+    "precision": 0.05271523178807947,
+    "recall": 0.12,
+    "f1": 0.06629710841138767,
+    "accuracy": 0.8270198675496688
+  },
+  "feature_metrics": {
+    "Head Turned Forward": {
+      "precision": 0.7192052980132451,
+      "recall": 1.0,
+      "f1": 0.8366718027734977,
+      "auc": 0.5081700198061087
+    },
+    "Head Pointing Forward": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.48858607281724986
+    },
+    "Head Not Tilted": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.5208362863217575
+    },
+    "Head Leaning Forward": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.46215230278157776
+    },
+    "Head Leaning Backward": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.539112615823236
+    },
+    "Head Pointing Up": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.5191468253968254
+    },
+    "Head Down": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.43742202815897346
+    },
+    "Head Tilted Left": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.5191780099187506
+    },
+    "Head Tilted Right": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.4544298811058588
+    },
+    "Head Turned Left": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.4797822949996863
+    },
+    "Head Turned Right": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.44885869565217384
+    },
+    "Eye Closure": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.4569231957966311
+    },
+    "Eye Widen": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.4723979682765995
+    },
+    "Brow Furrow": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.45593253968253966
+    },
+    "Brow Raise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.5704366113950012
+    },
+    "Mouth Open": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.5483712621109215
+    },
+    "Jaw Drop": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.5354864433811802
+    },
+    "Speaking": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.5326222826086957
+    },
+    "Lip Press": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.47589405080213903
+    },
+    "Lip Pucker": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.446555944055944
+    },
+    "Lip Stretch": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.49152180108292964
+    },
+    "Lip Suck": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.4857428408256506
+    },
+    "Lip Tighten": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.519570978369861
+    },
+    "Cheek Raise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.43845672575599587
+    },
+    "Chin Raise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.4672744273024778
+    },
+    "Dimpler": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.3915523079664944
+    },
+    "Nose Wrinkle": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.4807919041068972
+    },
+    "Upper Lip Raise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.4003552640568423
+    },
+    "fixation_density": {
+      "precision": 0.49801324503311256,
+      "recall": 1.0,
+      "f1": 0.6648983200707339,
+      "auc": 0.46450976814685907
+    },
+    "avg_fixation_duration": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.0
+    },
+    "gaze_dispersion": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.0
+    },
+    "gsr_peak_count": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.0
+    },
+    "gsr_avg_amplitude": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.0
+    },
+    "Joy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.49164067431584413
+    },
+    "Anger": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.0
+    },
+    "Fear": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.0
+    },
+    "Disgust": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.0
+    },
+    "Sadness": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.4827870680044593
+    },
+    "Surprise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.5027753903452227
+    },
+    "Contempt": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.0
+    },
+    "Positive Valence": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.4935715346626564
+    },
+    "Negative Valence": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.4728985507246377
+    },
+    "Neutral Valence": {
+      "precision": 0.6609271523178808,
+      "recall": 1.0,
+      "f1": 0.79585326953748,
+      "auc": 0.4627301477955912
+    },
+    "Attention": {
+      "precision": 0.14437086092715232,
+      "recall": 1.0,
+      "f1": 0.2523148148148148,
+      "auc": 0.5649586729911666
+    },
+    "Adaptive Engagement": {
+      "precision": 0.003973509933774834,
+      "recall": 1.0,
+      "f1": 0.0079155672823219,
+      "auc": 0.43306737588652483
+    },
+    "Confusion": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.0
+    },
+    "Sentimentality": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.0
+    },
+    "Smile": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.5239918681073855
+    },
+    "Smirk": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.0
+    },
+    "Neutral": {
+      "precision": 0.609271523178808,
+      "recall": 1.0,
+      "f1": 0.757201646090535,
+      "auc": 0.505033161385409
+    }
+  },
+  "config": {
+    "model_type": "vit",
+    "sequence_length": 1,
+    "batch_size": 4,
+    "learning_rate": 0.0001,
+    "num_epochs": 10
+  }
+}

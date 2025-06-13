@@ -1,0 +1,134 @@
+{
+  "working_videos": [
+    {
+      "name": "Screen recording 1 - BU 6095.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - BU 6095.mp4",
+      "duration": 467.8333333333333,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - AM 1355.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - AM 1355.mp4",
+      "duration": 703.8,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - CP 0636.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - CP 0636.mp4",
+      "duration": 539.4666666666667,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - CR 0863.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - CR 0863.mp4",
+      "duration": 275.46666666666664,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - JG 8996.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - JG 8996.mp4",
+      "duration": 635.7333333333333,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - YT 6156.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - YT 6156.mp4",
+      "duration": 54.733333333333334,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - LE 3299.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - LE 3299.mp4",
+      "duration": 511.43333333333334,
+      "fps": 30.0
+    },
+    {
+      "name": "RespCam_AR  2298_Screen recording 1_(21,FEMALE,1029) (1).mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/RespCam_AR  2298_Screen recording 1_(21,FEMALE,1029) (1).mp4",
+      "duration": 544.8333333333334,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - AW 8961.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - AW 8961.mp4",
+      "duration": 315.6,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - AR 1378.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - AR 1378.mp4",
+      "duration": 509.2,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - AR  2298.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - AR  2298.mp4",
+      "duration": 544.8,
+      "fps": 30.0
+    },
+    {
+      "name": "RespCam_AR 1378_Screen recording 1_(21,FEMALE,1030) (1).mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/RespCam_AR 1378_Screen recording 1_(21,FEMALE,1030) (1).mp4",
+      "duration": 509.2,
+      "fps": 30.0
+    },
+    {
+      "name": "RespCam_LE 3299_Screen recording 1_(21,FEMALE,1028).mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/RespCam_LE 3299_Screen recording 1_(21,FEMALE,1028).mp4",
+      "duration": 511.43333333333334,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - JR 4166.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - JR 4166.mp4",
+      "duration": 515.3,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - ZLB 8812.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - ZLB 8812.mp4",
+      "duration": 452.3333333333333,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - JM IES.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - JM IES.mp4",
+      "duration": 421.6333333333333,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - JM 9684.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - JM 9684.mp4",
+      "duration": 986.2333333333333,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - EV 4492.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - EV 4492.mp4",
+      "duration": 411.46666666666664,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - CP 6047.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - CP 6047.mp4",
+      "duration": 387.8333333333333,
+      "fps": 30.0
+    },
+    {
+      "name": "Screen recording 1 - KW 9939.mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/Screen recording 1 - KW 9939.mp4",
+      "duration": 334.1,
+      "fps": 30.0
+    },
+    {
+      "name": "RespCam_CP 6047_Screen recording 1_(22,FEMALE,1027) (1).mp4",
+      "path": "/home/rohan/Multimodal/multimodal_video_ml/data/all_videos/RespCam_CP 6047_Screen recording 1_(22,FEMALE,1027) (1).mp4",
+      "duration": 387.8,
+      "fps": 30.0
+    }
+  ],
+  "corrupted_videos": [
+    "Screen recording 1 - NS 4013.mp4",
+    "Screen recording 1 - MP 5114.mp4"
+  ]
+}

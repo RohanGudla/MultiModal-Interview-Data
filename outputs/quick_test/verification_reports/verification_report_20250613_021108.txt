@@ -1,0 +1,30 @@
+MULTIMODAL VIDEO ANNOTATION - VERIFICATION REPORT
+============================================================
+Generated: 20250613_021108
+
+DATASET SUMMARY
+------------------------------
+Total samples: 100
+Unique participants: 1
+Total features: 50
+
+PARTICIPANTS
+------------------------------
+CP_0636: 100 samples, 0.753 accuracy
+
+OVERALL PERFORMANCE
+------------------------------
+Overall accuracy: 0.7526
+
+TOP PERFORMING FEATURES
+------------------------------
+Head Leaning Forward: 1.000
+Lip Stretch: 1.000
+gaze_dispersion: 1.000
+Anger: 1.000
+Fear: 1.000
+Disgust: 1.000
+Contempt: 1.000
+Confusion: 1.000
+Sentimentality: 1.000
+Smirk: 1.000
